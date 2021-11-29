@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CircleCi</string>
+    <string name="resultat">Resultat</string>
+    <string name="plus">+</string>
+    <string name="egale">=</string>
+    <string name="first_int">First int</string>
+    <string name="second_int">Second int</string>
+    <string name="validate">Validate</string>
+</resources>
