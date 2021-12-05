@@ -8,16 +8,8 @@ import static org.junit.Assert.*;
 
 public class SommeActivityTest {
 
-    private  SommeActivity sommeActivity=null;
-    @Before
-    public void setUp() throws Exception {
-       sommeActivity=new SommeActivity();
-    }
+    private final SommeActivity sommeActivity=new SommeActivity();
 
-    @After
-    public void tearDown() throws Exception {
-        sommeActivity=null;
-    }
 
     @Test
     public void somme() {
