@@ -7,22 +7,12 @@ import org.junit.runners.JUnit4;
 
 import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
-public class MainActivityTest {
+public class SommeTest {
+private Somme Somme=new Somme();
 
-    private MainActivity ma;
-
-    @Before
-    public void setup ()
-    {
-        ma = new MainActivity();
-    }
 
     @Test
-    public void addition_isCorrect(){
-
-
-
-        assertEquals(9,ma.Somme(5,4));
-
+    public void Sommeval() {
+        assertEquals(9,Somme.Sommeval(5,4));
     }
 }
