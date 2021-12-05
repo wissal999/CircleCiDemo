@@ -13,6 +13,6 @@ private Somme Somme=new Somme();
 
     @Test
     public void Sommeval() {
-        assertEquals(9,Somme.Sommeval(5,4));
+        assertEquals(15,Somme.Sommeval(5,4));
     }
 }
