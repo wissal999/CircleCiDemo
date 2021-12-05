@@ -21,9 +21,8 @@ public class SommeActivity extends AppCompatActivity {
         Validate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                long first_int =Long.parseLong(FirstInt.getText().toString());
-                long second_int =Long.parseLong(SecondInt.getText().toString());
-                long resultatUser =Long.parseLong(Resultat.getText().toString());
+                long first_int =Long.valueOf(FirstInt.getText().toString());
+                long second_int =Long.valueOf(SecondInt.getText().toString());
 
                 Resultat.setText(Long.valueOf(Somme(first_int,second_int)).toString());
             }
@@ -32,7 +31,6 @@ public class SommeActivity extends AppCompatActivity {
     }
     public  long Somme( long valeur1, long valeur2) {
         return valeur1+valeur2;
-
 
     }
 
