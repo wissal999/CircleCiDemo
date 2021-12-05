@@ -25,6 +25,6 @@ public class SommeActivityTest {
     @Test
     public void Somme()
     {
-        assertEquals(9,sommeActivity.Somme(5,4));
+        assertEquals(15,sommeActivity.Somme(5,4));
     }
 }
