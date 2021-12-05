@@ -13,6 +13,6 @@ public class ValidatorTest {
     @Test
     public void Somme()
     {
-        assertEquals(9,validator.Somme(5,4));
+        assertEquals(12,validator.Somme(5,4));
     }
 }
