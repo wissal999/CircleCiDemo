@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class SommeActivityTest {
 
-    private final SommeActivity sommeActivity=new SommeActivity();
+    private  SommeActivity sommeActivity=new SommeActivity();
 
 
     @Test
