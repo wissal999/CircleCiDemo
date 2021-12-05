@@ -12,16 +12,16 @@ import static org.junit.Assert.*;
 public class SommeActivityTest {
 
   @Rule
-  public ActivityTestRule<SommeActivity>activityTestRule=new ActivityTestRule<SommeActivity>(SommeActivity.class);
-  private SommeActivity sommeActivity=null;
+  public ActivityTestRule<SommeActivity>activityTestRule=new ActivityTestRule<>(SommeActivity.class);
+  private SommeActivity sommeActivity;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         sommeActivity=activityTestRule.getActivity();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown()  {
         sommeActivity=null;
     }
     @Test
