@@ -1,5 +1,7 @@
 package com.example.circlecidemo;
 
+import androidx.test.rule.ActivityTestRule;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,10 +9,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MainActivityTest {
-    private  MainActivity mainActivity=null;
+    private ActivityTestRule<MainActivity> activityTestRule=new ActivityTestRule<MainActivity>(MainActivity.class);
+    private MainActivity mainActivity=null;
     @Before
     public void setUp() throws Exception {
-        mainActivity=new MainActivity();
+        mainActivity=activityTestRule.getActivity();
     }
 
     @After
