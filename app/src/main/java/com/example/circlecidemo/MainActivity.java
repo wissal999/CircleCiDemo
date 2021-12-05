@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public static long Somme(long valeur1, long valeur2) {
-      ;
+    public long Somme(long valeur1, long valeur2) {
+
         return  valeur1+valeur2;
 
 
