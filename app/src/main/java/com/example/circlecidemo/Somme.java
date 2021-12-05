@@ -6,6 +6,5 @@ public class Somme {
         long SommeValeurs=valeur1+valeur2;
         return SommeValeurs;
 
-
     }
 }
