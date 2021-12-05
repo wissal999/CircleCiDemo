@@ -2,27 +2,24 @@ package com.example.circlecidemo;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class SommeActivityTest {
-
-  private  SommeActivity sommeActivity=null;
+public class MainActivityTest {
+    private  MainActivity mainActivity=null;
     @Before
     public void setUp() throws Exception {
-        sommeActivity=new SommeActivity();
+        mainActivity=new MainActivity();
     }
 
     @After
     public void tearDown() throws Exception {
-        sommeActivity=null;
+        mainActivity=null;
     }
-
 
     @Test
     public void somme() {
-        assertEquals(9,sommeActivity.Somme(5,4));
+        assertEquals(9,mainActivity.Somme(5,4));
     }
 }
