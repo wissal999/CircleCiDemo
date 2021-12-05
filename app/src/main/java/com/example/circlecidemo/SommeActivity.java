@@ -12,8 +12,8 @@ public class SommeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_somme);
     }
     public  long Somme( long valeur1, long valeur2) {
-        long SommeValeurs=valeur1+valeur2;
-        return SommeValeurs;
+
+        return valeur1+valeur2;
 
 
     }
