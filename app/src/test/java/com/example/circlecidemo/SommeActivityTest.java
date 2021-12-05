@@ -8,9 +8,13 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class SommeActivityTest {
 
+
     private final SommeActivity Somme=new SommeActivity();
+
+
     @Test
-    public void somme() {
+    public void Sommeval()
+    {
         assertEquals(9,Somme.Somme(5,4));
     }
 }
